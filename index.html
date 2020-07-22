@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EdSimpleVideoJS</title>
+    <link rel="stylesheet" href="css/edMedia.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+<video poster="uploads/kapak.jpg" preload="none" style="width: 100%; height: 100%;" >
+    <source src="uploads/video.mp4" type="video/mp4">
+</video>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/mediaelement-and-player.min.js"></script>
+<script>
+    $("video,audio").EdSimpleVideoJs();
+</script>
+</body>
+</html>

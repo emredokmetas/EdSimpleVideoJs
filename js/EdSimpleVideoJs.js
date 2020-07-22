@@ -358,7 +358,6 @@ jQuery.fn.EdSimpleVideoJs = function (settings = null) {
 
         $this.controlsHide = function () {
             controlsSetInterval = setInterval(function () {
-                console.log("s")
                 if ($this.isPlayed()) {
 
                     $this.closest(".ed-media").find(".ed-big-button").css("cursor", "none");
